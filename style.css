@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Manrope:wght@500&family=Roboto:wght@300;400;500;700&display=swap');
+
+.main-section {
+    background-image: linear-gradient(
+        90deg,
+     #002853,
+     #040C18  
+    );
+}
+ .nav-link {
+    color: #FFFFFF !important;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 500;
+ }
+
+ #SignUp {
+    background-color: #FF4820;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border: none;
+ }
+
+ .myheader, .sectiond-myheader {
+    font-size: 62px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 75px;
+    background: -webkit-linear-gradient( 90deg,
+        #AE67FA,
+        #F49867);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+ }
+
+ .myheader-p {
+    color: #81AFDD;
+ }
+
+ input[type="email"] {
+    padding: 18px;
+    background-color: #052D56;
+    width: 50%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+ }
+
+ .btnn {
+    padding: 18px;
+    background: #e43d18;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 120px;
+    height: 50%;
+    color: white;
+    border: none;
+    margin-left: -10px;
+ }
+
+ .img-p {
+    color: #FFFFFF;
+    font-size: 12px;
+    /* padding: 10px 20px 20px 0; */
+ }
+
+ .sec-img {
+   width: 100%;
+   vertical-align: ;
+   margin-left: 35%;
+ 
+ }
+
+
+
+
+ /* STYLING THE SECOND SECTION (SECTION-B */
+
+ .section-bb {
+    background-image: linear-gradient(
+        to bottom right, 
+     #0F4279 80%,
+     #1B78DE  
+    );
+}
+ 
+.sectionb-header, .sectionb-footerheader, .sectionc-h5 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 800;
+}
+
+.sectionb-text, .sectionb-footerp, .sectionc-p2{
+    color: #81AFDD;
+    font-size: 16px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 500;
+    line-height: 30px;   
+}
+
+.sectionb-hero, .sectionc-h3{
+    font-size: 34px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 800;
+    line-height: 45px;
+    background: -webkit-linear-gradient( 90deg,
+    #AE67FA, 
+    #F49867);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+}
+
+.sectionb-herop {
+    color: #FF8A71;
+    font-size: 16px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+
+
+
+/* STYLING THE THIRD SECTION (SECTION-C */
+
+.sectionc-p1 {
+    color: #FF8A71;
+    font-size: 16px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.sectionc-c {
+    padding-top: 250px;
+   
+}
+
+.sectionc-p3 {
+    color: #71E5FF;
+    font-size: 16px;
+    font-family: 'Manrope' sans-serif; 
+    font-weight: 500;
+}
+
+.sectionc-footer {
+    background-image: linear-gradient(
+        90deg,
+        #AE67FA, 
+        #F49867 
+    );
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 10.72px; 
+    border: 0.50px black solid
+}
+
+.sectionc-footertext p {
+    color: black;
+    font-size: 12px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 800; 
+}
+
+.sectionc-footertext h5 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Manrope'sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.sectionc-btn {
+    background: black;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    width: 14%;
+}
+
+.sectionc-footer {
+    justify-content: space-between;
+}
+
+
+   
+
+/* STYLING THE FOURTH SECTION (SECTION-D */
+
+ .sectiond-myheader, .sectione-myheader  {
+    font-size: 45px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 50px;
+    background: -webkit-linear-gradient( 90deg,
+        #AE67FA,
+        #F49867);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+ }
+
+
+
+/* STYLING THE FIFTH SECTION (SECTION-E */
+
+ .section-e {
+    background: #031B34;
+ }
+
+
+ .sectione-btn {
+    color: white;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium' sans-serif;
+    font-weight: 400;
+    background: transparent;
+    border: 0.50px white solid;
+    padding: 20px;
+    margin: 30px auto 30px auto; 
+ }
+
+ .section-e p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    font-weight: 400;
+ }
+
+ .section-e h6 {
+    color: white;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold' sans-serif;
+    font-weight: 400;
+ }
