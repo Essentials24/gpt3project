@@ -2,10 +2,11 @@
 
 .main-section {
     background-image: linear-gradient(
-        90deg,
+        90deg, 
      #002853,
      #040C18  
     );
+    margin: 0;
 
 }
  .nav-link {
@@ -26,12 +27,12 @@
 
  .myheader, .sectiond-myheader {
     font-size: 62px;
-    font-family: Manrope;
+    font-family: 'Manrope' sans-serif;
     font-weight: 800;
     line-height: 75px;
-    background: -webkit-linear-gradient( 90deg,
-        #AE67FA,
-        #F49867);
+    background: -webkit-linear-gradient( 180deg,
+       #F49867,
+       #AE67FA );
         -webkit-background-clip: text; 
         -webkit-text-fill-color: transparent; 
  }
@@ -46,7 +47,7 @@
     width: 50%;
     border: none;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px
+    border-bottom-left-radius: 10px;
  }
 
  .btnn {
@@ -63,7 +64,8 @@
 
  .img-p {
     color: #FFFFFF;
-    font-size: 12px;
+    /* font-size: 14px; */
+    margin-top: 1px;
     /* padding: 10px 20px 20px 0; */
  }
 
@@ -73,6 +75,20 @@
    margin-left: 35%;
  
  }
+
+ .icon-section {
+  padding-right: 20px;
+  /* align-items: center; */
+ }
+
+ .icon-section img {
+  width: 8%;
+ }
+
+ /* .icon-sectionn {
+    text-align: center;
+   
+ } */
 
 
 
@@ -84,6 +100,7 @@
         to bottom right, 
      #0F4279 80%,
      #1B78DE  
+     
     );
 }
  
@@ -203,6 +220,98 @@
         -webkit-background-clip: text; 
         -webkit-text-fill-color: transparent; 
  }
+ .sectiond-image {
+    width: 100%;
+    
+ }
+
+ .sectiond-cardbody1 {
+    background: #04396e66;
+    width: 100%;
+    padding-left: 25px;
+    color: white; 
+    /* position: relative; */
+    /* height: 353px; */
+ }
+
+
+
+.sectiond-cardbody1 p {
+    color: white;
+    font-size: 11.65px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.sectiond-cardbody1 h4 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.sectiond-cardfooter1 {
+    font-size: 11.65px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    line-height: 34.95px;
+    padding-top: 250px;
+    /* position: absolute; */
+    /* bottom: 20px;  */
+ }
+
+
+
+ .sectiond-image2 {
+    width: 100%;  
+ }
+
+ .sectiond-cardbody2 {
+    background: #04396e66;
+    width: 100%;
+    padding-left: 25px;
+    color: white; 
+    position: relative;
+    height: 195px;
+ }
+
+ .sectiond-cardbody2 p {
+    color: white;
+    font-size: 11.65px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.sectiond-cardbody2 h4 {
+    color: white;
+    font-size: 14px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    padding-right: 10px;
+}
+
+
+.sectiond-cardfooter2 {
+    font-size: 11.65px;
+    font-family: 'Manrope' sans-serif;
+    font-weight: 700;
+    line-height: 34.95px;
+    padding-top: 250px;
+    position: absolute;
+    bottom: 20px; 
+ }
+
+ .overallcard-img {
+    padding-left: 400px;
+ }
+
+
+
 
 
 
@@ -238,9 +347,52 @@
     font-weight: 400;
  }
 
+ .margin-leftt {
+    margin-left: px !important;
+ }
+
+ 
 
 
  .main-section {}
+
+ 
+.card-main {
+    background: #04396e66;
+}
+
+.main-img {
+    position: relative;
+}
+
+.main-body {
+    height: 353px;
+    padding: 10px 25px;
+}
+ .main-img img {
+    width: 100%;
+ }
+
+ .main-footer {
+    padding: 10px 25px;
+ }
+
+ .txt {
+    position: absolute;
+    bottom: 20px;
+ }
+
+ @media screen and (min-width: 1500px) and (max-width: 1600px) {
+    .main-body {
+        height: 358px;
+    }
+ }
+
+ @media screen and (min-width: 2000px) {
+    .main-body {
+        height: 343px;
+    }
+ }
 
  /* RESPONSIVNESS FOR SMALL DEVICE */
 @media (max-width:992px) {
@@ -262,8 +414,18 @@
         margin-top: -30px;
  }
 
+ .row {
+    margin: 0 !important;
+ }
+ input[type="email"] {
+    
+    background-color: #052D56;
+    width: 59%;
+ }
+
  .section-a p {
-    font-size: 10px;
+    font-size: 8px;
+    margin-top: -1px;
  }
 
  .sec-img {
@@ -305,7 +467,7 @@
 }
 .sectionc-p21 {
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 25px;
 }
 .sectionc-footer {
@@ -325,6 +487,7 @@
 .sectiond-img1 {
     width: 100%;
   margin-right: 30px;
+  height: 359px;
 }
 .sectione-myheader {
     font-size: 24px;
@@ -337,13 +500,16 @@
     margin-left: 20px;
 }
 .sectiond-img2{
-   margin-bottom: 10px;
+   margin-bottom: 50px;
+   margin-left: -20px;
+   width: 100%;
  }
+}
 
 
 
  /* RESPONSIVNESS FOR SMALL DEVICE */
-@media (min-width:820px) and (max-width:1199px)  {
+@media (min-width:820px) and (max-width:1280px)  {
      .sectiond-img1 {
         width: 60%;
      }
@@ -352,10 +518,16 @@
      }
 } 
 
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+    .main-body {
+        height: 374px;
+    }
+ }
+
 
 
 /* RESPONSIVNESS FOR LARGE SCREEN DEVICE */
-@media (min-width:1200px) and (max-width:2300px)  {
+@media screen and (min-width: 1800px)  {
     
     .sectionc-p2 p {
        margin-top: -1px;
@@ -363,10 +535,111 @@
     .sectiond-img2 {
       margin-left: -20px;
     }
+    .first-img-p img-p {
+        color: #FFFFFF;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .main-body {
+        height: 348px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1800px)  {
+    
+    .sectiond-cardbody1 {
+        height: 345px;
+
+    } 
+}
+
+
+
+@media (min-width:1024px) and (max-width:1025px) {
+    
+   .img-p {
+        color: #FFFFFF;
+        font-size: 12px;
+        margin-top: 2000px;
+    }
 } 
 
 
 
 
 
- 
+
+/* RESPONSIVNESS FOR MEDIUM DEVICE */
+@media (min-width:768px) and (max-width:1024px)  {
+    .sectiond-img1 {
+       width: 60%;
+    }
+    .sectionc-p2 p {
+       margin-top: -1px;
+    }
+    .myheader {
+        font-size: 48px;
+        font-family: 'Manrope' sans-serif;
+        font-weight: 800;
+        line-height: 64px;
+    }
+    .section-a p {
+        font-size: 18px;
+    }
+    .section-a p {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .big-img { 
+        margin-top: 80px;
+    }
+    input[type="email"] {
+        padding: 18px;
+        background-color: #052D56;
+        width: 61%;
+        } 
+    }
+
+
+
+@media (max-width:280px) {
+    input[type="email"] {
+        padding: 18px;
+        background-color: #052D56;
+        width: 100%;
+    } 
+    .btnn {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 5px;
+    }
+    .section-a p {
+            font-size: 15px;
+          word-break: unset;
+    }
+    .myheader {
+            font-size: 33px;
+    }
+    .section-a p {
+        font-size: 8px;
+    }
+    .first-img {
+        width: 100px;
+        display: flex;
+    }
+    .first-img-p{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectiond-cardbody2 h4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .sectiond-cardbody1 h4 {
+        font-size: 12px;
+        line-height: 17px;
+        margin-right: 3px;
+    }
+}
